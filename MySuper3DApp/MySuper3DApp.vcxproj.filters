@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{40fd3e14-d49f-48ac-ae9e-2efe222953c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{98b530c6-08fa-4c71-91c2-1901423798ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{99fd8d10-2283-4296-813b-ecbc9a0df75c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{4e0b79f1-24fa-468a-8f92-164af5392892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{2f015af9-0999-4791-b86c-017230f426c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{2c179167-4018-44a7-b6fe-3a701255c731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{64dadc8b-cf65-43ac-b6a3-c29aebfea055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObject">
+      <UniqueIdentifier>{01a6b855-7e87-4509-a039-7c39d0e1e6ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObject\Component">
+      <UniqueIdentifier>{b26d603a-07c7-4346-a89f-5e3529e0fcd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\GameObject">
+      <UniqueIdentifier>{42652ea6-df64-4b58-a54f-c15461e15ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\GameObject\Component">
+      <UniqueIdentifier>{b314ddce-5e48-4588-ae77-6ce1553dfe1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\GameObject\Component\Render">
+      <UniqueIdentifier>{722cb657-2019-4323-8ecd-d3b1b2a200d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\GameObject\Component\Physics">
+      <UniqueIdentifier>{1cfa0c06-cf91-4b6c-8ab3-19ecc7543a6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObject\Component\Render">
+      <UniqueIdentifier>{d1be8617-5c10-4aa9-bf62-50afd35f4bfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MySuper3DApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Delegates.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDevice.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMath.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PingPongGame.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Game\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectComponent.cpp">
+      <Filter>Source Files\Game\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>Source Files\Game\GameObject\Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareRenderComponent.cpp">
+      <Filter>Source Files\Game\GameObject\Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleRenderComponent.cpp">
+      <Filter>Source Files\Game\GameObject\Component\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DisplayWin32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegates.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Keys.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDevice.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMath.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PingPongGame.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Game\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectComponent.h">
+      <Filter>Header Files\Game\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>Header Files\Game\GameObject\Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareRenderComponent.h">
+      <Filter>Header Files\Game\GameObject\Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleRenderComponent.h">
+      <Filter>Header Files\Game\GameObject\Component\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\MyVeryFirstShader.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="SimpleMath.inl">
+      <Filter>Header Files\Math</Filter>
+    </None>
+  </ItemGroup>
+</Project>
